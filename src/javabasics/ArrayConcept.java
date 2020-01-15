@@ -8,16 +8,18 @@ public class ArrayConcept {
 		// array : to store similar data values in a array variable
 
 		// 1. int array
+		
 
 		// lowest bound index =0
 		// upper bound index = n-1 (n is the size of array)
 
 		// one dim array
+		
 		// dis-advantages of array :
 		// 1. size is fixed --static array --to overcome this problem we use collection
-		// -- Arraylist Hashtable hashmap --use dynamic array concept
-		// 2. store only similar data type --to overcome this problem, we use Object
-		// array
+		//collections -- Arraylist Hashtable hashmap --use dynamic array concept
+		// 2. store only similar data type --to overcome this problem, we use Object array
+		// 
 
 		int i[] = new int[4];
 		i[0] = 10;
@@ -76,9 +78,12 @@ public class ArrayConcept {
 		ob[3] = "1/1/1990";
 		ob[4] = 'M';
 		ob[5] = "London";
-		// Object is used to store different data type values
+		// Object is a class used to store different data type values
 		System.out.println(ob[5]);
 		// if we want to print all the value of Object array we need to use FOR LOOP.
+		for (int j=0; j<ob.length; j++) {
+			System.out.println(ob[j]);
+		}
 
 	}
 

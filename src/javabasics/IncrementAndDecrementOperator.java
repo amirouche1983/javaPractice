@@ -26,7 +26,7 @@ public class IncrementAndDecrementOperator {
 		
 		System.out.println(p);//1
 		System.out.println(q); //1
-		
+		System.out.println();
 	}
 
 }
