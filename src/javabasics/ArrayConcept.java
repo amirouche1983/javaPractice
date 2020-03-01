@@ -38,6 +38,7 @@ public class ArrayConcept {
 			System.out.println(i[j]);
 		}
 		System.out.println("******");
+		
 		// 2. double array:
 		double d[] = new double[3];
 		d[0] = 12.33;
@@ -49,6 +50,7 @@ public class ArrayConcept {
 		for (int r = 0; r < d.length; r++) {
 			System.out.println(d[r]);
 		}
+		
 		// 3. char array:
 		char c[] = new char[3];
 		c[0] = 'q';
@@ -78,10 +80,14 @@ public class ArrayConcept {
 		ob[3] = "1/1/1990";
 		ob[4] = 'M';
 		ob[5] = "London";
+		
 		// Object is a class used to store different data type values
+		
 		System.out.println(ob[5]);
+		
 		// if we want to print all the value of Object array we need to use FOR LOOP.
 		for (int j=0; j<ob.length; j++) {
+			
 			System.out.println(ob[j]);
 		}
 

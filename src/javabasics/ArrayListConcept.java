@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ArrayListConcept {
 
 	public static void main(String[] args) {
+		
 		ArrayList ar = new ArrayList();
 		
 		
@@ -32,6 +33,7 @@ public class ArrayListConcept {
 
 	   ar.remove(9);
 	   System.out.println(ar.get(4));
+	   
 	   //System.out.println(ar.get(9)); 
 	   
 	   //to print all the values of ArrayList: for loop

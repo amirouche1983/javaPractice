@@ -1,12 +1,15 @@
-package javabasics;
+package ListConcept;
 
+import java.io.ObjectInputStream.GetField;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Set;
 
-public class HashTablConcept {
+public class HashTableConcept {
 
 	public static void main(String[] args) {
+		
+		
 		//it is similar to hashmap , but it is synchronized
 		//stores the value on the basis of key -value
 		//key --> object --HashCod--> value
@@ -31,7 +34,7 @@ public class HashTablConcept {
 		System.out.println("the value  from h2:"+ h2);
 		
 		
-		//delete the values of h1 
+		
 		h1.clear();
 		
 		System.out.println("the value  from h1:"+ h1);
@@ -42,8 +45,7 @@ public class HashTablConcept {
 		st.put("A", "Amar");
 		st.put("B", "manager");
 		st.put("C", "selenium");
-		 
-		//check if a value exist 
+		
 		if(st.contains("Amar"))
 		System.out.println("value is found");
 		
@@ -52,13 +54,13 @@ public class HashTablConcept {
 		Enumeration e =st.elements();
 		
 		System.out.println(e.nextElement());
-		System.out.println("print values from st using enumeration");
+		System.out.println("print values from st");
 		
 		while(e.hasMoreElements()) {
 			System.out.println(e.nextElement());
 			
 		}
-		//get all the values from hashtable using --entrySet()-- it return one set of hashtable values:
+		//get all the values from hashtable using --entrySet()--set of hashtable values:
 		
 		System.out.println("print values from st using entry set");
 		Set s =st.entrySet();
@@ -73,17 +75,16 @@ public class HashTablConcept {
 		st1.put("B", "manager");
 		st1.put("C", "selenium");
 		st1.put("C", "selenium");//it contains only unique value
-		//no null key and no null values
+		//no null and null values
 		//st1.("D", null);//null pointer exception
 		
-		System.out.println("values from st1:");
+		System.out.println("values from st1");
 		System.out.println(st1);
 		
 		
 		//check both  the  hashtables are equal or not:
 		if(st.equals(st1));
 		System.out.println("both are equal");
-		
 		//get the value from a key:
 		System.out.println(st1.get("A"));
 		
@@ -95,42 +96,9 @@ public class HashTablConcept {
 		
 		
 		
-		Hashtable h = new Hashtable();
-		
-		h.put("A", "Test");
-		
-		h.put("B", "Hello");
-		
-		h.put("C", "World");
-		
-		System.out.println(h.size());
-		h.put(1, 100);
-		
-		h.put(2, 200);
-		
-		System.out.println(h.size());
-		
-		
-		System.out.println(h.get(2));
-		System.out.println(h.get("C"));
-		
-		h.put(3, "Tom");
-		
-		
-		Hashtable<Integer, Integer> h3 = new Hashtable<Integer,Integer>();
-		
-		h3.put(1, 100);
-		
-		//h3.put("A", 200);
-		
-		
-		Hashtable<Integer, String> h4 = new Hashtable<Integer,String>();
-		  h4.put(1, "Tom");
 		
 		
 		
-		
-
 	}
 
 }

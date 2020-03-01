@@ -10,7 +10,7 @@ public class Exirsice153 {
 		   double n1 = myscan.nextDouble();
 		   System.out.println("Enter a second number");
 		   double n2 = myscan.nextDouble();
-		   System.out.println(n1> 0 && n1<1 && 2>0 && n2<1 );
+		   System.out.println(n1> 0 && n1<1 && n2>0 && n2<1 );
 		   
 		   
 		 
