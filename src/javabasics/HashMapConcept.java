@@ -36,7 +36,7 @@ public class HashMapConcept {
 		System.out.println(hm);
 		hm.remove(3);
 		System.out.println(hm);
-		
+		System.out.println("****************************");
 		HashMap<Integer, Employee> emp = new HashMap<Integer, Employee>();
 		
 		Employee e1 = new Employee("Tom", 25, "admin");

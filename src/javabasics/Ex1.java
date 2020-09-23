@@ -13,8 +13,8 @@ public class Ex1 {
 		//print : a + b =
 		 
 		//print x + y?
-		//x+y+a+b?
-		//a+b+x+y?
+		//print x+y+a+b?
+		//print a+b+x+y?
 		
 		System.out.println(a+b);
 		System.out.println(x + " "+ y);

@@ -50,19 +50,22 @@ public class ArrayConcept {
 		for (int r = 0; r < d.length; r++) {
 			System.out.println(d[r]);
 		}
-		
+		System.out.println("************");
 		// 3. char array:
 		char c[] = new char[3];
 		c[0] = 'q';
-		c[1] = 2;
+		c[1] = '2';
 		c[2] = '$';
 		System.out.println(c[2]);
-
+		System.out.println(c[1]);
+System.out.println("**************");
 		// 4.boolean array
 		boolean b[] = new boolean[2];
 		b[0] = true;
 		b[1] = false;
-
+		System.out.println(b[0]);
+		System.out.println(b[1]);
+		System.out.println("************");
 		// 5. string array
 		String s[] = new String[3];
 
@@ -71,6 +74,8 @@ public class ArrayConcept {
 		s[2] = "wold";
 		System.out.println(s.length);
 		System.out.println(s[1]);
+		
+		System.out.println("*************");
 
 		// 6. object array (object is a super class in Java)
 		Object ob[] = new Object[6];
@@ -82,9 +87,9 @@ public class ArrayConcept {
 		ob[5] = "London";
 		
 		// Object is a class used to store different data type values
-		
 		System.out.println(ob[5]);
 		
+		System.out.println("*************");
 		// if we want to print all the value of Object array we need to use FOR LOOP.
 		for (int j=0; j<ob.length; j++) {
 			
